@@ -2,12 +2,8 @@
   items:
     - id: Introduction
       to: /docs/getting-started
-    - id: Hardware requirements
-      to: /docs/getting-started/hardware-requirements
-    - id: Installing Geth
-      to: /docs/getting-started/installing-geth
-    - id: Consensus clients
-      to: /docs/getting-started/consensus-clients
+    - id: Organizers guide
+      to: /docs/getting-started/organizers
 - id: Fundamentals
   items:
     - id: Introduction

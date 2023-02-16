@@ -1,5 +1,5 @@
 ---
-title: Getting started with Geth
+title: Getting started with QFI
 description: Guide to getting up and running with Geth using Clef.
 ---
 
