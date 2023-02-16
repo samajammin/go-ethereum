@@ -5,7 +5,7 @@ import { WindowsLogo, MacosLogo, LinuxPenguin, SourceBranch } from './components
 export const BORDER_WIDTH = '2px';
 
 // internal pages
-export const DOWNLOADS_PAGE = '/downloads';
+export const DOWNLOADS_PAGE = '/docs';
 export const DOCS_PAGE = '/docs';
 export const FAQ_PAGE = '/docs/faq';
 export const CONTRIBUTING_PAGE = `${DOCS_PAGE}/developers/contributing`;
