@@ -3,7 +3,7 @@ import { FC } from 'react';
 
 import { ButtonLinkSecondary } from '..';
 import { GopherHomeNodes } from '../svgs/GopherHomeNodes';
-import { ETHEREUM_ORG_RUN_A_NODE_URL } from '../../../constants';
+import { DOCS_PAGE } from '../../../constants';
 
 interface Props {
   children: React.ReactNode;
@@ -20,7 +20,7 @@ export const WhyRunANode: FC<Props> = ({ children }) => {
         <GridItem order={{ base: 1, md: 2 }}>
           <Stack p={4} borderBottom='2px' borderColor='primary' sx={{ mt: '0 !important' }}>
             <Box as='h2' textStyle='h2'>
-              Why run a node?
+              Why run a QF round?
             </Box>
           </Stack>
 
@@ -49,8 +49,8 @@ export const WhyRunANode: FC<Props> = ({ children }) => {
         </GridItem>
       </Grid>
 
-      <ButtonLinkSecondary href={ETHEREUM_ORG_RUN_A_NODE_URL}>
-        Read more about running a node
+      <ButtonLinkSecondary href={`${DOCS_PAGE}/getting-started`}>
+        Learn how to run a round
       </ButtonLinkSecondary>
     </Stack>
   );

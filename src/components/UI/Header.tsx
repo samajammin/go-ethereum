@@ -31,7 +31,7 @@ export const Header: FC = () => {
         <NextLink href={'/'} passHref legacyBehavior>
           <Link _hover={{ textDecoration: 'none' }}>
             <Text textStyle='header-font' whiteSpace='nowrap'>
-              go-ethereum
+              QFI
             </Text>
           </Link>
         </NextLink>

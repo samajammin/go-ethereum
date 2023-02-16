@@ -23,11 +23,11 @@ export const HomeHero: FC = () => {
           lineHeight={{ base: '3.375rem', md: '6rem' }}
           fontWeight={{ base: 700, md: 500 }}
         >
-          go-ethereum
+          Quadratic funding incubator
         </Box>
 
         <Text textStyle='homepage-description'>
-          Official Go implementation of the Ethereum protocol
+          Infrastructure for funding public goods. Built on the Ethereum protocol.
         </Text>
       </Box>
 
@@ -38,7 +38,7 @@ export const HomeHero: FC = () => {
         <Flex direction='column' alignItems='center' mr={{ md: 6 }}>
           <NextLink href={DOWNLOADS_PAGE} passHref legacyBehavior>
             <Button variant='primary' as='a' mb={1} data-group>
-              <Text textStyle='homepage-primary-label'>Download</Text>
+              <Text textStyle='homepage-primary-label'>Apply</Text>
             </Button>
           </NextLink>
 

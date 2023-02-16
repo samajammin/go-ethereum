@@ -37,45 +37,24 @@ const HomePage: NextPage = ({}) => {
             <GridItem rowSpan={2}>
               {/* SECTION: What is Geth */}
               <HomeSection
-                sectionTitle='What is Geth?'
-                linkLabel='Get started with Geth'
+                sectionTitle='What is QFI?'
+                linkLabel='Get started with QFI'
                 buttonHref={`${DOCS_PAGE}/getting-started`}
                 Svg={GopherHomeFront}
                 ariaLabel='Gopher greeting'
               >
                 <Text textStyle='quick-link-text'>
-                  Geth (go-ethereum) is a{' '}
-                  <Link href={GO_URL} isExternal variant='light' aria-label='Go lang'>
-                    Go
-                  </Link>{' '}
-                  implementation of{' '}
-                  <Link href={ETHEREUM_ORG_URL} isExternal variant='light'>
-                    Ethereum
-                  </Link>{' '}
-                  - a gateway into the decentralized web.
+                  Our team works on privacy technology that leverages Ethereum smart contracts and
+                  ZKPs to empower radical democracy. We’re working to create a scalable way to
+                  support Quadratic Funding projects, by building infrastructure that enables
+                  community organizers to run Quadratic Funding Rounds.
                 </Text>
 
                 <Text textStyle='quick-link-text'>
-                  Geth has been a core part of Ethereum since the very beginning. Geth was one of
-                  the original Ethereum implementations making it the most battle-hardened and
-                  tested client.
-                </Text>
-
-                <Text textStyle='quick-link-text'>
-                  Geth is an Ethereum{' '}
-                  <Text as='span' fontStyle='italic'>
-                    execution client
-                  </Text>{' '}
-                  meaning it handles transactions, deployment and execution of smart contracts and
-                  contains an embedded computer known as the{' '}
-                  <Text as='span' fontStyle='italic'>
-                    Ethereum Virtual Machine
-                  </Text>
-                  .
-                </Text>
-
-                <Text textStyle='quick-link-text'>
-                  Running Geth alongside a consensus client turns a computer into an Ethereum node.
+                  We offer help in planning, operations, technical guidance, marketing, and impact
+                  analysis with a the goal of empowering organizers to become technically
+                  independent and ready to receive matching funds/grants. We want to activate more
+                  operators that will continue to run QF rounds for their communities.
                 </Text>
               </HomeSection>
             </GridItem>
@@ -95,9 +74,8 @@ const HomePage: NextPage = ({}) => {
               {/* SECTION: Why run a node (has different styles than the other sections so it uses a different component) */}
               <WhyRunANode>
                 <Text textStyle='quick-link-text'>
-                  Running your own node enables you to use Ethereum in a truly private,
-                  self-sufficient and trustless manner. You don&apos;t need to trust information you
-                  receive because you can verify the data yourself using your Geth instance.
+                  Running a round allows you to empower your community in a self-sufficient and
+                  trustless manner. TODO...
                 </Text>
 
                 <Text textStyle='quick-link-text' fontWeight={700}>
@@ -114,7 +92,7 @@ const HomePage: NextPage = ({}) => {
             <GridItem>
               {/* SECTION: Contribute to Geth */}
               <HomeSection
-                sectionTitle='Contribute to Geth'
+                sectionTitle='Contribute to QFI'
                 linkLabel='Read our contribution guidelines'
                 buttonHref={CONTRIBUTING_PAGE}
               >
@@ -139,8 +117,8 @@ const HomePage: NextPage = ({}) => {
                 buttonHref={ETHEREUM_FOUNDATION_URL}
               >
                 <Text textStyle='quick-link-text'>
-                  The Geth team comprises 10 developers distributed across the world. The Geth team
-                  is funded exclusively by The Ethereum Foundation.
+                  The QFI team is a small team of engineers, designers, and operators distributed
+                  across the world. The QFI team is funded exclusively by The Ethereum Foundation.
                 </Text>
               </HomeSection>
             </GridItem>
